@@ -13,7 +13,7 @@ Starter guide on how to use Splunk to analyze and create reports from server log
 2. Ensure docker container is running: ```docker ps```
 3. Login to the splunk portal with username 'admin' and the password you provided. The Splunk portal will be found at http://ip_of_your_system:8000
 
-![Image of Dashboard] (imgs/0-dashboard.png)
+![Image of Dashboard](imgs/0-dashboard.png)
 
 ## Upload Data
 
@@ -36,8 +36,8 @@ db_audit.csv | csv | database
 Here is a sample of queries used on this dataset to generate reports of failed ssh logins on port 22 on the web server
 
 ### Grabbing failed password attempts from all logs
-![Image search 1] (imgs/1-simple_search.png)
+![Image search 1](imgs/1-simple_search.png)
 
 ### Sorting failed password attempts on the webserver by number of login failures 
-![Image search 2] (imgs/2-advanced_search.png)
+![Image search 2](imgs/2-advanced_search.png)
 
